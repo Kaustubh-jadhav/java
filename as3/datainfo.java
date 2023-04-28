@@ -4,7 +4,7 @@ public class DatabaseInfoDemo
 {
         public static void main(String[] args)
         {
-               try (Connection conn = DriverManager.getConnection("jdbc:postgresql://192.168.1.254/ty56","ty56","ty56"))
+               try (Connection conn = DriverManager.getConnection("jdbc:postgresql://192.168.1.254/ty16","ty16","ty16"))
                {
                    DatabaseMetaData metaData = conn.getMetaData();
                    System.out.println("Database Product Name : "+metaData.getDatabaseProductName());

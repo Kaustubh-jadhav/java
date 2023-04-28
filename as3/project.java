@@ -5,9 +5,9 @@ import javax.swing.table.DefaultTableModel;
 
 public class ProjectTableDemo extends JFrame
 {
-       //private static final String DB_URL = "jdbc:postgres//192.168.1.254:5432/ty56";
-       //private static final String USER = "ty56";
-       //private static final String PASS ="ty56";
+       //private static final String DB_URL = "jdbc:postgres//192.168.1.254:5432/ty16";
+       //private static final String USER = "ty16";
+       //private static final String PASS ="ty16";
        
        public ProjectTableDemo()
        {
@@ -25,7 +25,7 @@ public class ProjectTableDemo extends JFrame
                
                try
                {
-                   Connection conn = DriverManager.getConnection("jdbc:postgresql://192.168.1.254/ty56","ty56","ty56");
+                   Connection conn = DriverManager.getConnection("jdbc:postgresql://192.168.1.254/ty16","ty16","ty16");
                    Statement stmt = conn.createStatement();
                    stmt.executeUpdate("CREATE TABLE IF NOT EXISTS PROJECT("+"PROJECT_ID INT PRIMARY KEY,"+"PROJECT_NAME VARCHAR(255),"+"PROJECT_DESCRIPTION VARCHAR(255),"+"PROJECT_STATUS VARCHAR(255)"+")");
                    

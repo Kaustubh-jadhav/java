@@ -4,7 +4,7 @@ public class ColumnInfoDemo
 {
        public static void main(String[] args)
        {
-              try (Connection conn = DriverManager.getConnection("jdbc:postgresql://192.168.1.254/ty56","ty56","ty56"))
+              try (Connection conn = DriverManager.getConnection("jdbc:postgresql://192.168.1.254/ty16","ty16","ty16"))
               {
                   Statement stmt = conn.createStatement();
                   ResultSet rs = stmt.executeQuery("SELECT * FROM DONOR");

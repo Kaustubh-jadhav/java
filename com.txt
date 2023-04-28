@@ -1,0 +1,24 @@
+curl https://raw.githubusercontent.com/Kaustubh-jadhav/java/main/as1/CitiesArrayList.java > sample.java
+as1
+	CitiesArrayList.java
+	CitySTDCodeApp.java
+	ColorTreeSet.java
+	PhoneBook.java
+	FriendsLinkedList.java
+	ContactHashTable.java
+	SortedIntegerSet.java
+	SortedHashMap.java
+	
+as2
+	ss.                          java simple search
+	sumavg.                      java sum and average
+	procon.java                  producer consumer 
+	CLV.java                     covid lockdown vacination
+	6sec.java                    sleep for 6 sec
+as3
+	cowin.java 
+	mobile.java
+	columnInfoDemo.java
+	datainfo.java
+	project.java
+	donor.java
